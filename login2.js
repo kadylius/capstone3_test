@@ -28,7 +28,7 @@ async function signUp(event) {
         });
 
         if (response.ok) {
-            window.location.href = 'social3.html';
+            window.location.href = 'home.html';
         } else {
             const data = await response.json();
             alert(`Sign Up Failed: ${data.message}`);
