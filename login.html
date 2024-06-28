@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn__SignUp__Landing__Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="social.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="social3.html"><img src="/logo/logo.jpg" alt="Pandapals" class="logo" width="80" height="70"></a>
+    
+</nav>
+    <div class="container">
+        <p>  Welcome to Pandapals.</p>
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form id="sign-in-form" class="sign-in-form">
+                    <h2 class="title">Sign In</h2>
+                    <div class="input-field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" id="sign-in-username" placeholder="Username" required>
+                    </div>
+                    <div class="input-field">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" id="sign-in-password" placeholder="Password" required>
+                    </div>
+                    <input type="submit" value="Login" href="social3.html" class="btn solid">
+
+                    
+                </form>
+                <form id="sign-up-form" class="sign-up-form">
+                    <h2 class="title">Sign Up</h2>
+                    <div class="input-field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" id="sign-up-username" placeholder="Username" required>
+                    </div>
+                    <div class="input-field">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" id="sign-up-email" placeholder="Email" required>
+                    </div>
+                    <div class="input-field">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" id="sign-up-password" placeholder="Password" required>
+                    </div>
+                    <input type="submit" value="Sign Up" class="btn solid" href="social3.html">
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here?</h3>
+                    <p> Create your account.
+                    </p>
+                    <button class="btn transparent" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="/images/Profiling_Monochromatic.png" class="image" alt="">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us?</h3>
+                    <p> Welcome back.
+                    </p>
+                    <button class="btn transparent" href="social3.html" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="/images/Authentication_Outline.png" class="image" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="login2.js"></script>
+</body>
+</html>
